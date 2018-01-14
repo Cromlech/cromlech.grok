@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from cStringIO import StringIO
+from io import StringIO
 from crom import monkey, implicit
 from zope.configuration.xmlconfig import xmlconfig
 
